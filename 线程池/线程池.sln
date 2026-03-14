@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线程池项目", "线程池项目\线程池项目.vcxproj", "{91F80D3C-EF43-4A1C-A05C-7EDFA28ADD80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mutex学习", "mutex学习\mutex学习.vcxproj", "{A8796AB1-8625-4246-9E86-1F618A7C6F57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++11（01）", "c++11\c++11.vcxproj", "{B1744435-F589-4078-BB9D-DA957845E7A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "条件变量", "条件变量\条件变量.vcxproj", "{F1C4B369-24B0-4DCC-8B1F-666301DE0258}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "future学习", "future学习\future学习.vcxproj", "{DAE67695-2991-4F13-A1D4-DA6C137B4A71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic学习", "atomic学习\atomic学习.vcxproj", "{93C21E2F-AE45-4614-9FDB-7B6A2DF24B81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++11（02）", "c++11（02）\c++11（02）.vcxproj", "{6E3E630A-5306-4BA6-BDBF-4A28940C50DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F80D3C-EF43-4A1C-A05C-7EDFA28ADD80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91F80D3C-EF43-4A1C-A05C-7EDFA28ADD80}.Debug|Win32.Build.0 = Debug|Win32
+		{91F80D3C-EF43-4A1C-A05C-7EDFA28ADD80}.Release|Win32.ActiveCfg = Release|Win32
+		{91F80D3C-EF43-4A1C-A05C-7EDFA28ADD80}.Release|Win32.Build.0 = Release|Win32
+		{A8796AB1-8625-4246-9E86-1F618A7C6F57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8796AB1-8625-4246-9E86-1F618A7C6F57}.Debug|Win32.Build.0 = Debug|Win32
+		{A8796AB1-8625-4246-9E86-1F618A7C6F57}.Release|Win32.ActiveCfg = Release|Win32
+		{A8796AB1-8625-4246-9E86-1F618A7C6F57}.Release|Win32.Build.0 = Release|Win32
+		{B1744435-F589-4078-BB9D-DA957845E7A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1744435-F589-4078-BB9D-DA957845E7A7}.Debug|Win32.Build.0 = Debug|Win32
+		{B1744435-F589-4078-BB9D-DA957845E7A7}.Release|Win32.ActiveCfg = Release|Win32
+		{B1744435-F589-4078-BB9D-DA957845E7A7}.Release|Win32.Build.0 = Release|Win32
+		{F1C4B369-24B0-4DCC-8B1F-666301DE0258}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1C4B369-24B0-4DCC-8B1F-666301DE0258}.Debug|Win32.Build.0 = Debug|Win32
+		{F1C4B369-24B0-4DCC-8B1F-666301DE0258}.Release|Win32.ActiveCfg = Release|Win32
+		{F1C4B369-24B0-4DCC-8B1F-666301DE0258}.Release|Win32.Build.0 = Release|Win32
+		{DAE67695-2991-4F13-A1D4-DA6C137B4A71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAE67695-2991-4F13-A1D4-DA6C137B4A71}.Debug|Win32.Build.0 = Debug|Win32
+		{DAE67695-2991-4F13-A1D4-DA6C137B4A71}.Release|Win32.ActiveCfg = Release|Win32
+		{DAE67695-2991-4F13-A1D4-DA6C137B4A71}.Release|Win32.Build.0 = Release|Win32
+		{93C21E2F-AE45-4614-9FDB-7B6A2DF24B81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93C21E2F-AE45-4614-9FDB-7B6A2DF24B81}.Debug|Win32.Build.0 = Debug|Win32
+		{93C21E2F-AE45-4614-9FDB-7B6A2DF24B81}.Release|Win32.ActiveCfg = Release|Win32
+		{93C21E2F-AE45-4614-9FDB-7B6A2DF24B81}.Release|Win32.Build.0 = Release|Win32
+		{6E3E630A-5306-4BA6-BDBF-4A28940C50DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E3E630A-5306-4BA6-BDBF-4A28940C50DC}.Debug|Win32.Build.0 = Debug|Win32
+		{6E3E630A-5306-4BA6-BDBF-4A28940C50DC}.Release|Win32.ActiveCfg = Release|Win32
+		{6E3E630A-5306-4BA6-BDBF-4A28940C50DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

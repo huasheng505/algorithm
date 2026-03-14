@@ -1,0 +1,22 @@
+﻿生成启动时间为 2026/3/14 17:29:46。
+     1>项目“E:\c++homework\线程池\future学习\future学习.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vc\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\vc\vc\include\type_traits(1545): error C2280: “std::packaged_task<int (int,int)>::packaged_task(const std::packaged_task<int (int,int)> &)”: 尝试引用已删除的函数
+                 e:\vc\vc\include\future(1825) : 参见“std::packaged_task<int (int,int)>::packaged_task”的声明
+                 e:\vc\vc\include\thread(47): 参见对正在编译的函数 模板 实例化“std::packaged_task<int (int,int)> std::_Decay_copy<std::packaged_task<int (int,int)>&>(_Ty)”的引用
+                 with
+                 [
+                     _Ty=std::packaged_task<int (int,int)> &
+                 ]
+                 e:\c++homework\线程池\future学习\源.cpp(28): 参见对正在编译的函数 模板 实例化“std::thread::thread<std::packaged_task<int (int,int)>&,int,int>(_Fn,int &&,int &&)”的引用
+                 with
+                 [
+                     _Fn=std::packaged_task<int (int,int)> &
+                 ]
+     1>已完成生成项目“E:\c++homework\线程池\future学习\future学习.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.62

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2026/3/14 20:54:39。
+     1>项目“E:\c++homework\线程池\线程池项目\线程池项目.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vc\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp" "线程池.cpp"
+         源.cpp
+         正在生成代码...
+         正在编译...
+         线程池.cpp
+         正在生成代码...
+       Link:
+         E:\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++homework\线程池\Debug\线程池项目.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\c++homework\线程池\Debug\线程池项目.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c++homework\线程池\Debug\线程池项目.lib" /MACHINE:X86 "Debug\源.obj"
+         "Debug\线程池.obj"
+         线程池项目.vcxproj -> E:\c++homework\线程池\Debug\线程池项目.exe
+     1>已完成生成项目“E:\c++homework\线程池\线程池项目\线程池项目.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.60
