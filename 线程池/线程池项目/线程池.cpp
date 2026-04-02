@@ -64,8 +64,8 @@ void ThreadPool::worker(){
 			unique_lock<mutex>lock(m_queuemutex);
 			while (m_queue.empty() && !m_stop){
 				cv.wait(lock);
-				if (m_exitthread > 0){//退出线程，同时将要回收的线程对象的id放入m_ids
-					m_curthread--;
+				if (m_exitthread > 0){//退出线程，同时将要回收的线程对象的id放入m_ids!!有问题，可能会导致删除过多线程
+					m_curthread--;//三个操作应该一并为原子
 					m_idlethread--;
 					m_exitthread--;
 					cout << "有线程退出了，id：" << this_thread::get_id() << endl;
